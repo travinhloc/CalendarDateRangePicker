@@ -13,6 +13,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_centerVertical="true"
+        style="@style/SelectableItemBackgroundBorderless"
+        android:tint="@color/selected_date_circle_color"
         android:src="@drawable/ic_left_selector" />
 
     <com.archit.calendardaterangepicker.customviews.CustomTextView
@@ -23,6 +25,7 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:tag="dateTitle"
+        android:textColor="@color/selected_date_circle_color"
         android:text="FEBRUARY 2014"
         android:textSize="@dimen/text_size_title" />
 
@@ -31,8 +34,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
+        style="@style/SelectableItemBackgroundBorderless"
         android:layout_alignParentEnd="true"
         android:layout_centerVertical="true"
+        android:tint="@color/selected_date_circle_color"
         android:src="@drawable/ic_right_selector" />
 
 

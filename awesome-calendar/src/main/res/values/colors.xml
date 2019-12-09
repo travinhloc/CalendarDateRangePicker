@@ -2,7 +2,7 @@
 <resources>
 
     <!-- General -->
-    <color name="selected_date_circle_color">#54B948</color>
+    <color name="selected_date_circle_color">#06C7C4</color>
 
     <!-- Fonts -->
     <color name="title_color">#000</color>
@@ -14,7 +14,7 @@
     <color name="disable_date_color">#BDBDBD</color>
     <color name="range_date_color">@color/default_date_color</color>
     <color name="selected_date_color">#FFF</color>
-    <color name="range_bg_color">#B7C99D</color>
+    <color name="range_bg_color">#8006C7C4</color>
     <color name="calendar_text">#474747</color>
 
 

@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CalendarDateRangePicker.iml" filepath="$PROJECT_DIR$/CalendarDateRangePicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/CalendarDateRangePicker-app.iml" filepath="$PROJECT_DIR$/app/CalendarDateRangePicker-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/awesome-calendar/CalendarDateRangePicker-awesome-calendar.iml" filepath="$PROJECT_DIR$/awesome-calendar/CalendarDateRangePicker-awesome-calendar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CalendarRangePicker-CalendarDateRangePicker.iml" filepath="$PROJECT_DIR$/CalendarRangePicker-CalendarDateRangePicker.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/awesome-calendar/awesome-calendar.iml" filepath="$PROJECT_DIR$/awesome-calendar/awesome-calendar.iml" />
     </modules>

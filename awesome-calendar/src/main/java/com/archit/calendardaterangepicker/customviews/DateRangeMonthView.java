@@ -180,7 +180,8 @@ class DateRangeMonthView extends LinearLayout {
      * @param month                    Month to be drawn
      * @param dateRangeCalendarManager Calendar data manager
      */
-    public void drawCalendarForMonth(final CalendarStyleAttributes calendarStyleAttr, final Calendar month, final DateRangeCalendarManager dateRangeCalendarManager) {
+    public void drawCalendarForMonth(final CalendarStyleAttributes calendarStyleAttr, final Calendar month,
+                                     final DateRangeCalendarManager dateRangeCalendarManager) {
         this.calendarStyleAttr = calendarStyleAttr;
         this.currentCalendarMonth = (Calendar) month.clone();
         this.dateRangeCalendarManager = dateRangeCalendarManager;

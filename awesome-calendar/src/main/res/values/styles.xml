@@ -24,7 +24,7 @@
         <item name="android:layout_height">@dimen/dayOfMonthBoxSize</item>
         <item name="android:textSize">@dimen/text_size_week</item>
         <item name="android:gravity">center</item>
-        <item name="android:textColor">@color/date_color</item>
+        <item name="android:textColor">@color/selected_date_circle_color</item>
         <item name="android:paddingBottom">@dimen/dayOfMonthPaddingBottom</item>
     </style>
 
@@ -55,4 +55,17 @@
 
     </style>
 
+    <style name="SelectableItemTheme">
+        <item name="colorControlHighlight">#E2E2E4</item>
+    </style>
+
+    <style name="SelectableItemBackground">
+        <item name="android:theme">@style/SelectableItemTheme</item>
+        <item name="android:background">?selectableItemBackground</item>
+    </style>
+
+    <style name="SelectableItemBackgroundBorderless">
+        <item name="android:theme">@style/SelectableItemTheme</item>
+        <item name="android:background">?selectableItemBackgroundBorderless</item>
+    </style>
 </resources>
